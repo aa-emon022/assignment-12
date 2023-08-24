@@ -1,0 +1,21 @@
+
+@media (max-width: 768px) {
+    .responsive {
+      clip-path: polygon(10% 1%, 90% 1%, 85% 98%, 15% 96%);
+    }
+  }
+  
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .responsive {
+      clip-path: polygon(8% 1%, 90% 1%, 85% 98%, 16% 96%);
+    }
+  }
+  
+  
+  @media (min-width: 1025px) {
+    .responsive {
+      clip-path: polygon(7% 1%, 90% 1%, 85% 98%, 17% 96%);
+    }
+  }
+  
