@@ -13,7 +13,7 @@ function NavBar() {
   const BarHandle = () => {
     setData(!data);
   };
-  const navBarClasses = `md:absolute lg:absolute 2xl:absolute md:border-box md:h-[80px] md:w-[670px] md:left-[100px] lg:left-[10px] lg:border-box lg:w-[900px] h-[70px] 2xl:left-[450px]  md:bg-black lg:bg-black ${style.responsive}`;
+  const navBarClasses = `md:absolute lg:absolute 2xl:absolute md:border-box md:h-[80px] md:w-[670px] md:left-[67px] lg:left-[60px] lg:border-box lg:w-[900px] h-[70px] xl:left-[200px] 2xl:left-[450px]  md:bg-black lg:bg-black ${style.responsive}`;
   return (
     <section className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
       <div className=" md:hidden lg:hidden left-[270px] ">
@@ -29,7 +29,7 @@ function NavBar() {
               <li className="hover:text-blue-400 md:ml-0 lg:ml-[20px] 2xl:ml-0  ">
                 <Link
                   className={pathname === `/home` ? "text-[#FFA500]" : ""}
-                  href="/home"
+                  href="/"
                 >
                   Home
                 </Link>
